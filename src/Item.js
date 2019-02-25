@@ -9,6 +9,7 @@ const itemSource = {
     if (!monitor.didDrop()) {
       return;
     }
+
     return props.handleDrop(props.item.id);
   }
 };
